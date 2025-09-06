@@ -1,4 +1,3 @@
-// js/script.js
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
@@ -17,9 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Opcional: Toggle para vista de lista (simula interactividad)
+   
     const listaBtn = document.querySelector('.lista-btn');
     listaBtn.addEventListener('click', () => {
         studentsGrid.classList.toggle('list-view');
     });
 });
+
